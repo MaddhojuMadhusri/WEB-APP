@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@400;700&family=Pacifico&display=swap" rel="stylesheet">
+  <title>Furniture Collection</title>
+  <style>
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      background-color: #fdfdfd;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+    }
+    nav a {
+      margin-right: 20px;
+      text-decoration: none;
+      color: #444;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: 60px;
+      font-weight: bold;
+      color: #333;
+      text-align: center;
+      margin-top: 20px;
+    }
+    p {
+      text-align: center;
+      max-width: 800px;
+      margin: 10px auto 30px;
+      color: #666;
+      font-style: italic;
+    }
+    .btn {
+      display: block;
+      width: 200px;
+      margin: 0 auto;
+      padding: 10px 20px;
+      background-color: #ff0080;
+      color: white;
+      text-align: center;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .card-container {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      width: 300px;
+      height: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      position: relative;
+    }
+    .card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .card-title {
+      position: absolute;
+      bottom: 10px;
+      left: 10px;
+      color: white;
+      font-size: 20px;
+      font-weight: bold;
+      text-shadow: 0 1px 2px rgba(0, 0, 0, 0.7);
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">N</div>
+  <nav>
+    <a href="#">Art</a>
+    <a href="#">Collections</a>
+    <a href="#">Sales</a>
+    <a href="#">Design</a>
+  </nav>
+</header>
+
+<h1>Where every piece tells a story and <br> every corner reflects your <span style="color: #8a4f2d;font-style: italic">unique style</span></h1>
+<p>
+  Explore our extensive collection of furniture and home decor that harmoniously blend aesthetics with functionality. 
+  From timeless classics to the latest trends, each piece is thoughtfully selected to elevate your home and express your individuality.
+</p>
+<a href="#" class="btn">Explore collection</a>
+
+<div class="card-container">
+  <div class="card">
+    <img src="images\image_184.jpg" alt="Furniture">
+    <div class="card-title">Furniture</div>
+  </div>
+  <div class="card">
+    <img src="images\image_185.jpg" alt="Open Space">
+    <div class="card-title">Open Space</div>
+  </div>
+  <div class="card">
+    <img src="images\image_184.jpg" alt="Interior">
+    <div class="card-title">Interior</div>
+  </div>
+</div>
+
+</body>
+</html>
